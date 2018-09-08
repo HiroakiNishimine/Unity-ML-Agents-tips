@@ -37,3 +37,4 @@
       * 正確にはファイル名とスクリプトのクラス名が一致していいない場合に発生するエラーのようです。
         https://www.ipentec.com/document/unity-error-cant-add-script-when-attach-script-to-object
     * 対応：スクリプトにおける何らかのエラーを修正する（僕の場合は、MazeAcademy.cs.csとなった名前をMazeAcademy.csに修正しました）
+      * また、オブジェクトのコンポーネントにあるAdd Componentからスクリプトを追加するとうまくいくことがありました。
