@@ -1,6 +1,6 @@
 # Unity-ML-Agents-tips
 強化学習ライブラリ Unity ML_Agentsを触ってみたときのTipsを記述しています。
-[Unity ML-Agents実践ゲームプログラミング](https://www.borndigital.co.jp/book/6702.html)を写経しながら、詰まったところについてメモをしていきます。
+[Unity ML-Agents実践ゲームプログラミング](https://www.borndigital.co.jp/book/6702.html)に出てくるコードを写経しながら、詰まったところについてメモをしていきます。
 
 ## 実行環境
 * OS : Windows 10 Home
