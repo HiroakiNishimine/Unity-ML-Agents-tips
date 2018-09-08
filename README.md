@@ -26,3 +26,4 @@
   * 対応：日本語のパスは使わないで、すべて英語のパスとする
 * Sceneの保存(P68)
   * https://dotinstall.com/lessons/basic_unity/24604
+* Hierarchyへの画像の追加(P69)
