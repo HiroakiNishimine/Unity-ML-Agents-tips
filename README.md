@@ -1,7 +1,7 @@
 # Unity-ML-Agents-tips
 * 強化学習ライブラリ Unity ML_Agentsを触ってみたときのTipsを記述しています。
 * [Unity ML-Agents実践ゲームプログラミング](https://www.borndigital.co.jp/book/6702.html)に出てくるコードを写経しながら、詰まったところについてメモをしていきます。
-* 機械学習歴は1年半くらいで、Unityは完全な初心者です。
+* 機械学習歴は1年半くらいで、Unityは完全な初心者です。この本はUnity ML-Agentsの解説本であって、Unityの解説本ではないので、まず[ドットインストールのUnity入門](https://dotinstall.com/lessons/basic_unity)でざっと勉強しました。(動画が2013年公開なので古いですが、使い勝手はあまり変わりありません)
 
 ## 実行環境
 * OS : Windows 10 Home
