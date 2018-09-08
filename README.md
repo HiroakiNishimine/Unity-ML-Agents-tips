@@ -29,7 +29,7 @@
 * Hierarchyへの画像の追加(3章 P69~70)
   * エクスプローラーからAssetsへ画像をドラッグアンドドロップ。AssetsからHierarchyへドラッグアンドドロップ。（その他のやり方があるかもしれません）
 * Inspecter(Component)を変更した場合、OKボタン（Applyボタン）などはなく、設定は即時反映されるようであるが、保存はCtrl＋Sで行います。
-* Academyオブジェクトを追加し、そこへスクリプトを追加
+* Academyオブジェクトを追加し、そこへスクリプトを追加(3章 P71~73)
   * https://dotinstall.com/lessons/basic_unity/24612
   * スクリプトの名前を付けるときに拡張子は自動でつくので、MazeAcademy.csと入力するとMazeAcademy.cs.csという名前になり以下のようなエラーが出ます。
     * エラー文 : `Can't add script behavior UnityRIOutput. The script needs to derive from MonoBehavior!`
