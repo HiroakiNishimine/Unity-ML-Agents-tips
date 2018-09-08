@@ -12,7 +12,7 @@
 * 2018/09/08
 ## 実行コマンド集
 * 2章
-  * 学習を実行
+  * 学習を実行(`ml-agents-master\python`配下にMLAgentsExamples.exeという実行ファイルがある場合)
     * `python learn.py MLAgentsExamples.exe --train`
   * 保存されたモデルをロードして、続きから学習を実行
     * `python learn.py MLAgentsExamples.exe --train --load`
