@@ -21,17 +21,17 @@
   * Tensorboard起動
     * `tensorboard --logdir=summaries`
 ## 詰まったポイント
-* プロジェクトの保存先（ディレクトリ）に日本語が入っていると、以下のようなエラーとなる。（環境(env)からの応答がなくなって、タイムアウトエラー）
+* プロジェクトの保存先（ディレクトリ）に日本語が入っていると、以下のようなエラーとなります。（環境(env)からの応答がなくなって、タイムアウトエラー）
   * エラー文 : `The Unity environment took too long to respond.`
   * 対応：日本語のパスは使わないで、すべて英語のパスとする
 * Sceneの保存(3章 P68)
   * https://dotinstall.com/lessons/basic_unity/24604
 * Hierarchyへの画像の追加(3章 P69~70)
   * エクスプローラーからAssetsへ画像をドラッグアンドドロップ。AssetsからHierarchyへドラッグアンドドロップ。（その他のやり方があるかもしれません）
-* Inspecter(Component)を変更した場合、OKボタン（Applyボタン）などはなく、設定は即時反映されるようであるが、保存はCtrl＋Sで行う。
+* Inspecter(Component)を変更した場合、OKボタン（Applyボタン）などはなく、設定は即時反映されるようであるが、保存はCtrl＋Sで行います。
 * Academyオブジェクトを追加し、そこへスクリプトを追加
   * https://dotinstall.com/lessons/basic_unity/24612
-  * スクリプトの名前を付けるときに拡張子は自動でつくので、MazeAcademy.csと入力するとMazeAcademy.cs.csという名前になり以下のようなエラーが出る。
+  * スクリプトの名前を付けるときに拡張子は自動でつくので、MazeAcademy.csと入力するとMazeAcademy.cs.csという名前になり以下のようなエラーが出ます。
     * エラー文 : `Can't add script behavior UnityRIOutput. The script needs to derive from MonoBehavior!`
-      * このエラーはスクリプトに何らかのエラーがある場合に発生するもののようである。
-    * 対応：MazeAcademy.cs.csとなった名前をMazeAcademy.csに修正する（もしくはスクリプトにおける何らかのエラーを修正する）
+      * このエラーはスクリプトに何らかのエラーがある場合に発生するもののようです。
+    * 対応：スクリプトにおける何らかのエラーを修正する（僕の場合は、MazeAcademy.cs.csとなった名前をMazeAcademy.csに修正しました）
