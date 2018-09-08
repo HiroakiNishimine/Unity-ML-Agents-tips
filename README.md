@@ -6,6 +6,8 @@
 * Unity : 2018.2.6f1 Personal(64bit)
 * [Unity ML-Agents : Beta 0.4.0b](https://github.com/Unity-Technologies/ml-agents/releases)
 * [TensorFlowSharp plugin : v1.7.0](https://github.com/migueldeicaza/TensorFlowSharp/releases)
-## 注意点
+## 検証日時
+* 2018/09/08
+## 詰まったポイント
 * プロジェクトの保存先（ディレクトリ）に日本語が入っていると、以下のようなエラーとなる。（環境(env)からの応答がなくなって、タイムアウトエラー）
   * エラー文 : `The Unity environment took too long to respond.`
