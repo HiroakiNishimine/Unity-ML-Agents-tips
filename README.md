@@ -1,6 +1,7 @@
 # Unity-ML-Agents-tips
-強化学習ライブラリ Unity ML_Agentsを触ってみたときのTipsを記述しています。
-[Unity ML-Agents実践ゲームプログラミング](https://www.borndigital.co.jp/book/6702.html)に出てくるコードを写経しながら、詰まったところについてメモをしていきます。
+* 強化学習ライブラリ Unity ML_Agentsを触ってみたときのTipsを記述しています。
+* [Unity ML-Agents実践ゲームプログラミング](https://www.borndigital.co.jp/book/6702.html)に出てくるコードを写経しながら、詰まったところについてメモをしていきます。
+* 機械学習歴は1年半くらいで、Unityは完全な初心者です。
 
 ## 実行環境
 * OS : Windows 10 Home
@@ -23,3 +24,5 @@
 * プロジェクトの保存先（ディレクトリ）に日本語が入っていると、以下のようなエラーとなる。（環境(env)からの応答がなくなって、タイムアウトエラー）
   * エラー文 : `The Unity environment took too long to respond.`
   * 対応：日本語のパスは使わないで、すべて英語のパスとする
+* Sceneの保存(P68)
+  * https://dotinstall.com/lessons/basic_unity/24604
