@@ -34,4 +34,6 @@
   * スクリプトの名前を付けるときに拡張子は自動でつくので、MazeAcademy.csと入力するとMazeAcademy.cs.csという名前になり以下のようなエラーが出ます。
     * エラー文 : `Can't add script behavior UnityRIOutput. The script needs to derive from MonoBehavior!`
       * このエラーはスクリプトに何らかのエラーがある場合に発生するもののようです。
+      * 正確にはファイル名とスクリプトのクラス名が一致していいない場合に発生するエラーのようです。
+        https://www.ipentec.com/document/unity-error-cant-add-script-when-attach-script-to-object
     * 対応：スクリプトにおける何らかのエラーを修正する（僕の場合は、MazeAcademy.cs.csとなった名前をMazeAcademy.csに修正しました）
