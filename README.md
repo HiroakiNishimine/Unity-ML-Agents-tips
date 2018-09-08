@@ -11,10 +11,14 @@
 * 2018/09/08
 ## 実行コマンド集
 * 2章
-  * 学習を実行:`python learn.py MLAgentsExamples.exe --train`
-  * 保存されたモデルをロードして、続きから学習を実行`python learn.py MLAgentsExamples.exe --train --load`
-  * Unity上でデバッグ状態で学習を実行`python learn.py --train`
-  * Tensorboard起動:`tensorboard --logdir=summaries`
+  * 学習を実行
+   * `python learn.py MLAgentsExamples.exe --train`
+  * 保存されたモデルをロードして、続きから学習を実行
+   * `python learn.py MLAgentsExamples.exe --train --load`
+  * Unity上でデバッグ状態で学習を実行
+   * `python learn.py --train`
+  * Tensorboard起動
+   * `tensorboard --logdir=summaries`
 ## 詰まったポイント
 * プロジェクトの保存先（ディレクトリ）に日本語が入っていると、以下のようなエラーとなる。（環境(env)からの応答がなくなって、タイムアウトエラー）
   * エラー文 : `The Unity environment took too long to respond.`
